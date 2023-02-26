@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>ANTI-SUBSCRIPTION SOFTWARE CLUB (ASC)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="cmun-typewriter.css" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+
+<style>
+.accordion {
+  
+  color: #000;
+  cursor: pointer;
+  padding: 0px;
+  margin-top:0.75em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: yellow;
+}
+
+.panel {
+  padding: 0px;
+  background-color: white;
+  max-height: 0;
+  overflow: auto;
+  transition: max-height 0.2s ease-out;
+}
+
+.topright {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 2em;
+  height: 2em;
+  z-index: +1;
+}
+</style>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+
+</head>
+<body>
+
+
+<div class="rectangle">
+<center>
+   <span>
+    <h6>
+      <a href="index.html">ANTI-SUBSCRIPTION SOFTWARE CATALOG (ASC)</a><button aria-label="close info page"><a href="index.html">
+    <img src="images/icon-close.svg" class="vertical-center" class="topright"></a></button>
+    </h6>
+  </span>
+</center>
+</div>
+
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve column" style="margin-top: 10%">
+       
+    <center>
+     <h1>
+      <a href="index.html">
+      <img src="images/dingwall-beach.svg"><br>A·S·C<br>
+      <img src="images/dingwall-beach-reflect.svg">
+    </h1>
+      </a>
+    </center>
+      <hr>
+      <br>
+        <p>This website is an index of free, libre, open-source, and one-time fee software which can provide relief from monopolized and financialized platforms. Refuse the squeeze!</p>
+        <p>Thank you to <a href="https://twitter.com/XdanielArt/status/1434611199140896772">@XdanielArt</a> for starting an initial list.</p>
+        <p>Send corrections to: clange@gmail.com</p>
+    
+      <hr>
+    </div>
+ 
+<p><table class="u-full-width">
+
+  <thead>
+    <tr>
+      <p>LEGEND</p>
+      <hr>
+      <p><img src="images/icon-free.svg" alt="icon free">&nbsp; FREE</p>
+      <hr>
+      <p><img src="images/icon-open-source.svg" alt="icon open-source">&nbsp; OPEN SOURCE</p>
+      <hr>
+      <p><img src="images/icon-1-time-fee.svg" alt="icon 1-time fee">&nbsp; 1-TIME FEE</p>
+      <hr>
+      <p><img src="images/icon-mac.svg" alt="icon mac">&nbsp; MAC</p>
+      <hr>
+      <p><img src="images/icon-windows.svg" alt="icon windows">&nbsp; WINDOWS</p>
+      <hr>
+      <p><img src="images/icon-linux.svg" alt="icon linux">&nbsp; LINUX</p>
+      <hr>
+      <p><img src="images/icon-ios.svg" alt="icon ios">&nbsp; IOS</p>
+      <hr>
+      <p><img src="images/icon-android.svg" alt="icon android">&nbsp; ANDROID</p>
+      <hr>
+    </tr>
+  </thead>
+</table>
+
+
+<div class="rectangle2"><center>
+
+<h1>say no to creative rent</h1><hr>
+<button>submit</button><button>contact</button></center>
+<br>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</div></div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+
+         
+      </div>
+    </div>
+  </div>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
